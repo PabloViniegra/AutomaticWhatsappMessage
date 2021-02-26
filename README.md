@@ -17,7 +17,7 @@ python3 messsage_whatsapp.py [número de teléfono] [mensaje a enviar] [número 
 Esto es, si por ejemplo quiere enviar el mensaje a un número en españa llevara '+34' delante.
 Aquí tiene una [lista de prefijos](https://es.wikipedia.org/wiki/Anexo:Prefijos_telef%C3%B3nicos_mundiales).
 Puede escribir el número con espacios, el script lo gestionará, pero el formato es deseable es
-`+34916xxxxxx`. Si el teléfono ocupa más de 12 carácteres saltará un error.
+`+34916xxxxxx`.
 
 2. El segundo argumento es una cadena. Puede escribirlo sin comas si es solo una palabra.
 Por ejemplo
