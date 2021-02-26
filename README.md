@@ -1,7 +1,7 @@
 # AutomaticWhatsappMessage
 Pequeño Script de Python para enviar mensajes de Whatsapp.
 
-#Cómo usarlo
+# Cómo usarlo
 
 Debe ejecutarlo desde una terminal. Puede abrir en una en
 Windows pulsando **Windows + R** y escribiendo `cmd`.
@@ -12,7 +12,7 @@ siguiente intrucción:
 python3 messsage_whatsapp.py [número de teléfono] [mensaje a enviar] [número de repeticiones del mensaje]
 ~~~
 
-###Consideraciones
+### Consideraciones
 1. El primer argumento [número de teléfono] debe ser escrito con su prefijo telefónico.
 Esto es, si por ejemplo quiere enviar el mensaje a un número en españa llevara '+34' delante.
 Puede escribir el número con espacios, el script lo gestionará, pero el formato es deseable es
