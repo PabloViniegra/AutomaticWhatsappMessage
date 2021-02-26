@@ -4,7 +4,7 @@ if len(sys.argv) == 4:
     inputNumber = sys.argv[1]
     inputMsg = sys.argv[2]
     inputLoop = sys.argv[3]
-    if (inputNumber.startswith('+') and len(inputNumber) == 12):
+    if (inputNumber.startswith('+')):
         webbrowser.open("https://web.whatsapp.com/send?phone=" + inputNumber.strip())
         time.sleep(6)
         for i in range(int(inputLoop)):
